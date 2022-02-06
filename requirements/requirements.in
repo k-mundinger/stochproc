@@ -1,0 +1,8 @@
+numpy
+matplotlib
+plotly 
+ipykernel
+nbformat
+yapf
+docformatter
+isort
