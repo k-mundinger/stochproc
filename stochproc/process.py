@@ -73,7 +73,6 @@ class Process(ABC):
         """Plot."""
 
         trajectory = self.get_trajectory()
-        
 
         if self.dim == 1:
 

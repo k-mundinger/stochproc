@@ -4,7 +4,6 @@ from stochproc.process import Process
 
 
 class BrownianMotion(Process):
-
     """N-dimensional Brownian motion."""
 
     def get_increments(self):
@@ -12,7 +11,6 @@ class BrownianMotion(Process):
         return np.random.normal(0,
                                 np.sqrt(self.dt),
                                 size=(self.dim, self.num_steps - 1))
-                                
 
     def get_trajectory(self):
 
